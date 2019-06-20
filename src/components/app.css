@@ -1,0 +1,64 @@
+.App {
+    background-color: #dddddd;
+}
+.settings{
+    display: flex;
+}
+.button{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: rgb(108, 174, 240);
+}
+.save{
+    color: white;
+    background-color: rgb(108, 174, 240);
+}
+.cancel{
+    color: rgb(108, 174, 240);
+    background-color: white;
+}
+.ethernet_settings, .wireless_settings, .save_cancel {
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 10px;
+}
+.ethernet_settings, .wireless_settings, .switcher, .fields {
+    display: flex;
+    flex-direction: column;
+}
+.ethernet_settings, .wireless_settings {
+    width: 50%;
+}
+.switcher {
+    align-items: flex-start;
+}
+.fields {
+    align-items: flex-end;
+}
+.text_input{
+    width: 25vw;
+}
+.select_input{
+    width: 21.5vw;
+}
+span {
+    color: red;
+}
+.refresh{
+    border: none;
+    width: 25px;
+    height: 25px;
+    background-image: url('../img/refresh_icon.svg');
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.radio:checked{
+    background: blue;
+}
